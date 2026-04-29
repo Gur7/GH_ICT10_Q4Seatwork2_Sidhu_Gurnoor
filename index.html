@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Grade 10 Classmates</title>
+    <style>
+        body {
+            background: #e0eafc;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 18px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #b3c6e055;
+        }
+        .title {
+            color: #1976d2;
+            margin-bottom: 0.5em;
+        }
+        .subtitle {
+            color: #555;
+            margin-bottom: 1em;
+        }
+        .form-area input {
+            width: 100%;
+            margin-bottom: 8px;
+            padding: 8px;
+            border: 1px solid #b3c6e0;
+            border-radius: 4px;
+        }
+        .button-row {
+            display: flex;
+            gap: 8px;
+        }
+        .button-row button {
+            flex: 1;
+            padding: 8px 0;
+            background: #1976d2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .button-row button:last-child {
+            background: #18804b;
+        }
+        #output {
+            background: #e3f2fd;
+            border-radius: 5px;
+            padding: 10px;
+            color: #222;
+            min-height: 32px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Grade 10 Classmates</h2>
+        <div class="subtitle">Add and view your classmates</div>
+
+        <div class="form-area">
+            <input id="name_input" type="text" placeholder="Name">
+            <input id="section_input" type="text" placeholder="Section">
+            <input id="subject_input" type="text" placeholder="Favorite Subject">
+            <div class="button-row">
+                <button py-click="add_classmate">Add Classmate</button>
+                <button py-click="show_list">Show List</button>
+            </div>
+        </div>
+
+        <div id="output"></div>
+    </div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
