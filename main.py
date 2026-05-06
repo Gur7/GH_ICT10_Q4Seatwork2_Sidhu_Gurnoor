@@ -12,11 +12,30 @@ class Classmate:
         return f"Hi! I am {self.name} from {self.section}. My favorite subject is {self.favorite_subject}."
 
 classmates = [
-    Classmate("Juanico", "Emerald", "Math"),
-    Classmate("Gino", "Emerald", "Science"),
-    Classmate("Oscar", "Emerald", "English"),
-    Classmate("Thomas", "Emerald", "Filipino"),
-    Classmate("Angela", "Emerald", "History")
+    Classmate("Joe", "Emerald", "Math"),
+    Classmate("Erin", "Emerald", "Science"),
+    Classmate("Caitlyn", "Emerald", "English"),
+    Classmate("Kyla", "Emerald", "Filipino"),
+    Classmate("Oscar", "Emerald", "History"),
+    Classmate("Clarrise", "Emerald", "Math"),
+    Classmate("Thomas", "Emerald", "Science"),
+    Classmate("Ivan", "Emerald", "English"),
+    Classmate("Aurelia", "Emerald", "Filipino"),
+    Classmate("Lan", "Emerald", "History"),
+    Classmate("Fran", "Emerald", "Math"),
+    Classmate("Kiesha", "Emerald", "Science"),
+    Classmate("Hikari", "Emerald", "English"),
+    Classmate("Ashe", "Emerald", "Filipino"),
+    Classmate("Juanico", "Emerald", "No fav Subject"),
+    Classmate("Julia", "Emerald", "Math"),
+    Classmate("James", "Emerald", "Science"),
+    Classmate("Sophia", "Emerald", "English"),
+    Classmate("Yciar", "Emerald", "Filipino"),
+    Classmate("Gino", "Emerald", "History"),
+    Classmate("Gurnoor", "Emerald", "Math"),
+    Classmate("Lia", "Emerald", "Nothing but air"),
+    Classmate("Erich", "Emerald", "English"),
+    Classmate("Zaragoza", "Emerald", "Filipino")
 ]
 
 def show_list(event=None):
